@@ -1,5 +1,11 @@
 import random
-r = random.randint(1,10)
+
+print('This is a guess number game! You can setting the range of answer')
+low = input('You can enter the lowest number in your range:')
+low = int(low)
+big = input('You can enter the biggest number in your range:')
+big = int(big)
+r = random.randint(low,big)
 times = 0
 while True:
 	number = input('Please enter a number you guess:')
