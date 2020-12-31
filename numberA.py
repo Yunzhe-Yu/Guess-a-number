@@ -1,6 +1,10 @@
 import random
 
-r = random.randint(1,100)
+start = input('please enter a startpoint number:')
+start = int(start)
+end = input('please enter a endpoint number:')
+end = int(end)
+r = random.randint(start,end)
 count = 0
 
 while True:
